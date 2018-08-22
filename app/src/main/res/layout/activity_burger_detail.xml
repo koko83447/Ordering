@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BurgerDetail"
+    android:background="@drawable/background">
+<TextView
+    android:id="@+id/burgername"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="純素貝果"
+    android:textSize="24sp"
+    android:textColor="@android:color/white"
+    android:background="@android:color/holo_green_dark"/>
+    <ImageView
+        android:id="@+id/burgerimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/burger_menu_1"
+        android:layout_below="@+id/burgername"/>
+    <TextView
+        android:id="@+id/burgerdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="純素貝果純素貝果純素貝果純素貝果純素貝果純素貝果純素貝果純素貝果"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/burgerimage"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="回到菜單"
+            android:onClick="backtomenu"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="前往訂餐"
+            android:onClick="ordering"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

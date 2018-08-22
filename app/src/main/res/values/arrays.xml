@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="welcome_menu">
+        <item>@drawable/menu_1</item>
+        <item>@drawable/menu_2</item>
+        <item>@drawable/menu_3</item>
+        <item>@drawable/menu_4</item>
+        <item>@drawable/menu_5</item>
+        <item>@drawable/menu_6</item>
+        <item>@drawable/menu_7</item>
+    </array>
+    <array name="burger_pic">
+        <item>@drawable/burger_1</item>
+        <item>@drawable/burger_2</item>
+        <item>@drawable/burger_3</item>
+        <item>@drawable/burger_4</item>
+        <item>@drawable/burger_5</item>
+        <item>@drawable/burger_6</item>
+        <item>@drawable/burger_7</item>
+    </array>
+    <string-array name="burger_name">
+        <item>純素貝果</item>
+        <item>沙拉船</item>
+        <item>乳酪燒餅</item>
+        <item>鬆餅堡</item>
+        <item>火腿貝果</item>
+        <item>墨西哥捲餅</item>
+        <item>黃金潛艇堡</item>
+    </string-array>
+</resources>
